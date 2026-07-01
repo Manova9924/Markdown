@@ -1,0 +1,81 @@
+Headers:
+
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+##### Heading Level 5
+###### Heading Level 6
+Heading 1 (Setext)
+===
+Heading 2 (Setext)
+---
+
+Text Emphasis:
+*Italic text using asterisks*
+_Italic text using underscores_
+
+**Bold text using asterisks**
+__Bold text using underscores__
+
+***Bold & Italic text***
+__*Bold & Italic alternate*__
+
+~~Strikethrough text~~ (Extended)
+
+Lists:
+- Unordered item 1
+* Unordered item 2
++ Unordered item 3
+
+1. First ordered item
+2. Second ordered item
+- Nested item A
+- Nested item B
+1. Third ordered item
+
+Links and Images:
+[Google Link](https://google.com)
+[Link with Title](https://google.com "Go
+to Google")
+
+Automatic URL: <https://google.com>
+
+![Alt Text Logo](https://
+via.placeholder.com/100)
+
+[Reference Link][my-key]
+...
+[my-key]: https://example.com "Reference
+Target"
+
+Code and Syntax Highlighting:
+
+Use `var x = 10;` inline.
+```javascript
+function greet(name) {
+console.log("Hello, " + name);
+}
+```
+
+Tables:
+| Left Align | Center Align | Right Align
+|
+| :--- | :----: | ---:
+|
+| Value A | Value B | Value C
+|
+| Item 1 | Item 2 | Item 3
+
+Task Lists & Blockquotes:
+> This is a blockquote.
+> It spans multiple lines.
+
+- [x] Completed task item
+- [ ] Incomplete task item
+
+Miscellaneous Symbols & Escaping:
+To print literal characters that are normally interpreted as syntax, escape them with a backslash ( \ ).
+Horizontal Rule: Produced by --- , *** , or ___ on a blank line.
+Line Break: Add two or more trailing spaces at the end of a sentence line, then hit Return.
+Escaping Markdown elements: \*This will not be italicized\* prints out raw asterisks.
